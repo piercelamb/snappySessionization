@@ -1,0 +1,543 @@
+18/06/20 11:01:21.243 PDT run-main-0<tid=0x2e> INFO snappystore: 
+---------------------------------------------------------------------------
+
+  Copyright (c) 2017 SnappyData, Inc. All rights reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License"); you
+  may not use this file except in compliance with the License. You
+  may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+  implied. See the License for the specific language governing
+  permissions and limitations under the License. See accompanying
+  LICENSE file.
+
+---------------------------------------------------------------------------
+Java version:   1.6.1 SnappyData, Inc. 021418 2018-02-14 13:44:09 +0530 javac 1.8.0_131
+Native version: gemfirexd native code unavailable
+Source revision: 714ae09ee9a408c8a79305f33c41eb65089ae13e
+Source repository: master
+Running on: Pierces-MacBook-Pro.local/192.168.0.9, 8 cpu(s), x86_64 Mac OS X 10.11.2
+Process ID: 38118
+User: plamb
+Current dir: /Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization
+Home dir: /Users/plamb
+Command Line Parameters:
+  -Xms1024m
+  -Xmx1024m
+  -XX:ReservedCodeCacheSize=128m
+  -XX:MaxMetaspaceSize=256m
+Class Path:
+  /usr/local/Cellar/sbt/0.13.9/libexec/sbt-launch.jar
+Library Path:
+  /Users/plamb/Library/Java/Extensions
+  /Library/Java/Extensions
+  /Network/Library/Java/Extensions
+  /System/Library/Java/Extensions
+  /usr/lib/java
+  .
+System Properties:
+    awt.toolkit = sun.lwawt.macosx.LWCToolkit
+    file.encoding = UTF-8
+    file.encoding.pkg = sun.io
+    file.separator = /
+    ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+    gemfire.log-file = gemfirexd-interface.log
+    gemfirexd.log-file = gemfirexd-interface.log
+    gopherProxySet = false
+    http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+    io.netty.maxDirectMemory = 0
+    java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+    java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+    java.class.version = 52.0
+    java.endorsed.dirs = /Library/Java/JavaVirtualMachines/jdk1.8.0_72.jdk/Contents/Home/jre/lib/endorsed
+    java.ext.dirs = /Users/plamb/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_72.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+    java.home = /Library/Java/JavaVirtualMachines/jdk1.8.0_72.jdk/Contents/Home/jre
+    java.io.tmpdir = /var/folders/w1/v_m_9hp567qdv77k1rrglw_c0000gn/T/
+    java.runtime.name = Java(TM) SE Runtime Environment
+    java.runtime.version = 1.8.0_72-b15
+    java.specification.name = Java Platform API Specification
+    java.specification.vendor = Oracle Corporation
+    java.specification.version = 1.8
+    java.vendor = Oracle Corporation
+    java.vendor.url = http://java.oracle.com/
+    java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+    java.version = 1.8.0_72
+    java.vm.info = mixed mode
+    java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+    java.vm.specification.name = Java Virtual Machine Specification
+    java.vm.specification.vendor = Oracle Corporation
+    java.vm.specification.version = 1.8
+    java.vm.vendor = Oracle Corporation
+    java.vm.version = 25.72-b15
+    jline.esc.timeout = 0
+    jline.shutdownhook = false
+    line.separator = 
+
+    os.version = 10.11.2
+    p2p.useSSL = false
+    packaging.type = jar
+    path.separator = :
+    socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+    sun.arch.data.model = 64
+    sun.boot.class.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_72.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_72.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_72.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_72.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_72.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_72.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_72.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_72.jdk/Contents/Home/jre/classes
+    sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_72.jdk/Contents/Home/jre/lib
+    sun.cpu.endian = little
+    sun.cpu.isalist = 
+    sun.font.fontmanager = sun.font.CFontManager
+    sun.io.unicode.encoding = UnicodeBig
+    sun.java.command = /usr/local/Cellar/sbt/0.13.9/libexec/sbt-launch.jar run
+    sun.java.launcher = SUN_STANDARD
+    sun.jnu.encoding = UTF-8
+    sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+    sun.nio.ch.bugLevel = 
+    sun.os.patch.level = unknown
+    user.country = US
+    user.language = en
+    user.timezone = America/Los_Angeles
+---------------------------------------------------------------------------
+
+18/06/20 11:01:21.243 PDT run-main-0<tid=0x2e> INFO snappystore: Renamed old log file to "gemfirexd-interface-01-01.log".
+18/06/20 11:01:21.245 PDT run-main-0<tid=0x2e> INFO snappystore: Startup Configuration:
+ ### GemFire Properties defined with system property ###
+log-file=gemfirexd-interface.log
+### GemFire Properties defined with api ###
+enable-network-partition-detection=true
+mcast-port=0
+member-timeout=30000
+### GemFire Properties using default values ###
+ack-severe-alert-threshold=0
+ack-wait-threshold=15
+archive-disk-space-limit=0
+archive-file-size-limit=0
+async-distribution-timeout=0
+async-max-queue-size=8
+async-queue-timeout=60000
+bind-address=
+cache-xml-file=cache.xml
+conflate-events=server
+conserve-sockets=false
+delta-propagation=true
+deploy-working-dir=.
+disable-auto-reconnect=false
+disable-tcp=false
+distributed-system-id=-1
+durable-client-id=
+durable-client-timeout=300
+enable-time-statistics=false
+enforce-unique-host=false
+groups=
+jmx-manager=false
+jmx-manager-access-file=
+jmx-manager-bind-address=
+jmx-manager-hostname-for-clients=
+jmx-manager-http-port=7070
+jmx-manager-password-file=
+jmx-manager-port=1099
+jmx-manager-ssl=false
+jmx-manager-ssl-ciphers=any
+jmx-manager-ssl-protocols=any
+jmx-manager-ssl-require-authentication=true
+jmx-manager-start=false
+jmx-manager-update-rate=4000
+locators=
+lock-memory=false
+log-disk-space-limit=0
+log-file-size-limit=0
+log-level=config
+max-num-reconnect-tries=3
+max-wait-time-reconnect=60000
+mcast-address=239.192.81.1
+mcast-flow-control=1048576, 0.25, 5000
+mcast-recv-buffer-size=1048576
+mcast-send-buffer-size=65535
+mcast-ttl=32
+membership-port-range=1024-65535
+memcached-port=0
+memcached-protocol=ASCII
+memory-size=
+name=
+off-heap-memory-size=
+redundancy-zone=
+remote-locators=
+remove-unresponsive-client=false
+roles=
+security-=
+security-client-accessor=
+security-client-accessor-pp=
+security-client-auth-init=
+security-client-authenticator=
+security-client-dhalgo=
+security-log-file=
+security-log-level=config
+security-peer-auth-init=
+security-peer-authenticator=
+security-peer-verifymember-timeout=1000
+server-bind-address=
+socket-buffer-size=32768
+socket-lease-time=60000
+ssl-ciphers=any
+ssl-enabled=false
+ssl-protocols=any
+ssl-require-authentication=true
+start-locator=
+statistic-archive-file=
+statistic-sample-rate=1000
+statistic-sampling-enabled=true
+tcp-port=0
+udp-fragment-size=60000
+udp-recv-buffer-size=1048576
+udp-send-buffer-size=65535
+user-command-packages=
+
+18/06/20 11:01:21.245 PDT run-main-0<tid=0x2e> INFO snappystore: Running in local mode since mcast-port was 0 and locators was empty.
+18/06/20 11:01:21.351 PDT Thread-16 StatSampler<tid=0x7a> INFO snappystore: Disabling statistic archival.
+18/06/20 11:01:21.488 PDT run-main-0<tid=0x2e> INFO snappystore: Initializing region _monitoringRegion_192.168.0.9<v-1>0
+18/06/20 11:01:21.542 PDT run-main-0<tid=0x2e> WARN snappystore: 
+java.lang.ExceptionInInitializerError
+	at com.gemstone.gemfire.management.internal.beans.MemberMBeanBridge.<init>(MemberMBeanBridge.java:420)
+	at com.gemstone.gemfire.management.internal.beans.ManagementAdapter.handleCacheCreation(ManagementAdapter.java:161)
+	at com.gemstone.gemfire.management.internal.beans.ManagementListener.handleEvent(ManagementListener.java:119)
+	at com.gemstone.gemfire.distributed.internal.InternalDistributedSystem.notifyResourceEventListeners(InternalDistributedSystem.java:2320)
+	at com.gemstone.gemfire.distributed.internal.InternalDistributedSystem.handleResourceEvent(InternalDistributedSystem.java:499)
+	at com.gemstone.gemfire.internal.cache.GemFireCacheImpl.init(GemFireCacheImpl.java:1307)
+	at com.gemstone.gemfire.internal.cache.GemFireCacheImpl.create(GemFireCacheImpl.java:985)
+	at com.gemstone.gemfire.internal.cache.GemFireCacheImpl.create(GemFireCacheImpl.java:1005)
+	at com.gemstone.gemfire.cache.CacheFactory.create(CacheFactory.java:181)
+	at com.gemstone.gemfire.cache.CacheFactory.create(CacheFactory.java:228)
+	at com.pivotal.gemfirexd.internal.engine.store.GemFireStore.boot(GemFireStore.java:1097)
+	at com.pivotal.gemfirexd.internal.impl.services.monitor.BaseMonitor.boot(BaseMonitor.java:2245)
+	at com.pivotal.gemfirexd.internal.impl.services.monitor.TopService.bootModule(TopService.java:314)
+	at com.pivotal.gemfirexd.internal.impl.services.monitor.BaseMonitor.startModule(BaseMonitor.java:720)
+	at com.pivotal.gemfirexd.internal.impl.services.monitor.FileMonitor.startModule(FileMonitor.java:65)
+	at com.pivotal.gemfirexd.internal.iapi.services.monitor.Monitor.bootServiceModule(Monitor.java:497)
+	at com.pivotal.gemfirexd.internal.engine.db.FabricDatabase.bootStore(FabricDatabase.java:2526)
+	at com.pivotal.gemfirexd.internal.engine.db.FabricDatabase.boot(FabricDatabase.java:356)
+	at com.pivotal.gemfirexd.internal.impl.services.monitor.BaseMonitor.boot(BaseMonitor.java:2245)
+	at com.pivotal.gemfirexd.internal.impl.services.monitor.TopService.bootModule(TopService.java:314)
+	at com.pivotal.gemfirexd.internal.impl.services.monitor.BaseMonitor.bootService(BaseMonitor.java:2043)
+	at com.pivotal.gemfirexd.internal.impl.services.monitor.BaseMonitor.startProviderService(BaseMonitor.java:1906)
+	at com.pivotal.gemfirexd.internal.impl.services.monitor.BaseMonitor.findProviderAndStartService(BaseMonitor.java:1786)
+	at com.pivotal.gemfirexd.internal.impl.services.monitor.BaseMonitor.startPersistentService(BaseMonitor.java:1196)
+	at com.pivotal.gemfirexd.internal.iapi.services.monitor.Monitor.startPersistentService(Monitor.java:620)
+	at com.pivotal.gemfirexd.internal.impl.jdbc.EmbedConnection.bootDatabase(EmbedConnection.java:3392)
+	at com.pivotal.gemfirexd.internal.impl.jdbc.EmbedConnection.<init>(EmbedConnection.java:453)
+	at com.pivotal.gemfirexd.internal.impl.jdbc.EmbedConnection30.<init>(EmbedConnection30.java:94)
+	at com.pivotal.gemfirexd.internal.impl.jdbc.EmbedConnection40.<init>(EmbedConnection40.java:75)
+	at com.pivotal.gemfirexd.internal.jdbc.Driver40.getNewEmbedConnection(Driver40.java:95)
+	at com.pivotal.gemfirexd.internal.jdbc.InternalDriver.connect(InternalDriver.java:351)
+	at com.pivotal.gemfirexd.internal.jdbc.InternalDriver.connect(InternalDriver.java:219)
+	at com.pivotal.gemfirexd.internal.jdbc.InternalDriver.connect(InternalDriver.java:195)
+	at io.snappydata.jdbc.AutoloadedDriver.connect(AutoloadedDriver.java:153)
+	at com.pivotal.gemfirexd.internal.engine.fabricservice.FabricServiceImpl.startImpl(FabricServiceImpl.java:282)
+	at com.pivotal.gemfirexd.internal.engine.fabricservice.FabricServerImpl.start(FabricServerImpl.java:72)
+	at io.snappydata.impl.ServerImpl.start(ServerImpl.scala:43)
+	at io.snappydata.impl.ServerImpl.start(ServerImpl.scala:38)
+	at io.snappydata.util.ServiceUtils$.invokeStartFabricServer(ServiceUtils.scala:102)
+	at org.apache.spark.sql.SnappyContext$.invokeServices(SnappyContext.scala:1135)
+	at org.apache.spark.sql.SnappyContext$.initGlobalSparkContext(SnappyContext.scala:1090)
+	at org.apache.spark.sql.SnappyContext$.initGlobalSnappyContext(SnappyContext.scala:1105)
+	at org.apache.spark.sql.SnappySession.<init>(SnappySession.scala:130)
+	at snappySessionization$.main(main.scala:16)
+	at snappySessionization.main(main.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sbt.Run.invokeMain(Run.scala:67)
+	at sbt.Run.run0(Run.scala:61)
+	at sbt.Run.sbt$Run$$execute$1(Run.scala:51)
+	at sbt.Run$$anonfun$run$1.apply$mcV$sp(Run.scala:55)
+	at sbt.Run$$anonfun$run$1.apply(Run.scala:55)
+	at sbt.Run$$anonfun$run$1.apply(Run.scala:55)
+	at sbt.Logger$$anon$4.apply(Logger.scala:85)
+	at sbt.TrapExit$App.run(TrapExit.scala:248)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: exists not allowed in pure java mode
+	at com.gemstone.gemfire.internal.OSProcess.exists2(OSProcess.java:608)
+	at com.gemstone.gemfire.internal.OSProcess$NativeOSCalls.isProcessActive(OSProcess.java:97)
+	at com.gemstone.gemfire.internal.process.NativeProcessUtils.isProcessAlive(NativeProcessUtils.java:36)
+	at com.gemstone.gemfire.internal.process.ProcessUtils.initializeInternalProcessUtils(ProcessUtils.java:120)
+	at com.gemstone.gemfire.internal.process.ProcessUtils.<clinit>(ProcessUtils.java:35)
+	... 58 more
+18/06/20 11:01:21.552 PDT run-main-0<tid=0x2e> INFO snappystore: GemFire Cache successfully created.
+18/06/20 11:01:21.557 PDT run-main-0<tid=0x2e> INFO snappystore: GfxdHeapThreshold: Query Cancellation Thread Started with query cancellation interval 100ms
+18/06/20 11:01:21.581 PDT run-main-0<tid=0x2e> INFO snappystore: GemFire Cache successfully booted with 
+--- file properties ---
+--- EMPTY ---
+--- boot connection properties ---
+ default-startup-recovery-delay="120000"
+ enable-network-partition-detection="true"
+ gemfirexd.access="memstore"
+ gemfirexd.authentication.required="false"
+ gemfirexd.database-object="com.pivotal.gemfirexd.internal.engine.db.FabricDatabase@7da1fa1f"
+ gemfirexd.engineType="2"
+ gemfirexd.serviceLocale="en_US"
+ gemfirexd.serviceProtocol="com.pivotal.gemfirexd.internal.database.Database"
+ mcast-port="0"
+ member-timeout="30000"
+ route-query="false"
+ spark.app.id="local-1529517679776"
+ spark.app.name="CreateReplicatedRowTable"
+ spark.driver.host="192.168.0.9"
+ spark.driver.port="55567"
+ spark.executor.id="driver"
+ spark.locality.wait="10s"
+ spark.locality.wait.process="20s"
+ spark.master="local[*]"
+ spark.memory.storageFraction="0.5"
+--- end --
+
+18/06/20 11:01:21.581 PDT run-main-0<tid=0x2e> INFO snappystore: TraceFabricServiceBoot: GemFireStore: booted with persist-indexes=true
+18/06/20 11:01:21.584 PDT run-main-0<tid=0x2e> INFO snappystore: This JVM is setup with SnappyData datastore role.
+18/06/20 11:01:21.613 PDT run-main-0<tid=0x2e> INFO SnappyUnifiedMemoryManager: Allocating boot time memory to RuntimeMemoryManager 
+18/06/20 11:01:21.615 PDT run-main-0<tid=0x2e> INFO SnappyUnifiedMemoryManager: BootTimeMemoryManager org.apache.spark.memory.SnappyUnifiedMemoryManager@39f40e8e configuration:
+		Total Usable Heap = 806.1 MB (845225656)
+		Storage Pool = 403.0 MB (422612828)
+		Execution Pool = 403.0 MB (422612828)
+		Max Storage Pool Size = 644.9 MB (676180524)
+18/06/20 11:01:21.631 PDT run-main-0<tid=0x2e> INFO snappystore: Locked disk store GFXD-DEFAULT-DISKSTORE for exclusive access in directory: /Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization
+18/06/20 11:01:21.659 PDT run-main-0<tid=0x2e> INFO snappystore: Recovered disk store GFXD-DEFAULT-DISKSTORE with unique id d93242bb-fc58-446f-8be4-8d876299682f
+18/06/20 11:01:21.662 PDT run-main-0<tid=0x2e> INFO snappystore: Recovering oplog#1 /Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/BACKUPGFXD-DEFAULT-DISKSTORE_1.drf for disk store GFXD-DEFAULT-DISKSTORE.
+18/06/20 11:01:21.664 PDT run-main-0<tid=0x2e> INFO snappystore: Recovering oplog#1 /Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/BACKUPGFXD-DEFAULT-DISKSTORE_1.crf for disk store GFXD-DEFAULT-DISKSTORE.
+18/06/20 11:01:21.682 PDT run-main-0<tid=0x2e> INFO snappystore: recovery oplog load took 20 ms
+18/06/20 11:01:21.826 PDT run-main-0<tid=0x2e> INFO snappystore: Created oplog#2 drf for disk store GFXD-DEFAULT-DISKSTORE.
+18/06/20 11:01:23.232 PDT run-main-0<tid=0x2e> INFO snappystore: Created oplog#2 crf for disk store GFXD-DEFAULT-DISKSTORE.
+18/06/20 11:01:23.238 PDT run-main-0<tid=0x2e> INFO snappystore: recoverOplogs oplog: oplog#1 parent: GFXD-DEFAULT-DISKSTORE, needskrf: true
+18/06/20 11:01:23.238 PDT run-main-0<tid=0x2e> INFO snappystore: createKrfAsync called for oplog: oplog#1, parent: GFXD-DEFAULT-DISKSTORE
+18/06/20 11:01:23.239 PDT run-main-0<tid=0x2e> INFO snappystore: recovery region initialization took 1,557 ms
+18/06/20 11:01:23.240 PDT run-main-0<tid=0x2e> INFO snappystore: Locked disk store SNAPPY-INTERNAL-DELTA for exclusive access in directory: /Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/snappy-internal-delta
+18/06/20 11:01:23.240 PDT run-main-0<tid=0x2e> INFO snappystore: Recovered disk store SNAPPY-INTERNAL-DELTA with unique id 259243ab-bbe2-4ea5-87cf-4473b24efd5d
+18/06/20 11:01:23.240 PDT run-main-0<tid=0x2e> INFO snappystore: recovery region initialization took 0 ms
+18/06/20 11:01:23.246 PDT run-main-0<tid=0x2e> INFO snappystore: Locked disk store GFXD-DD-DISKSTORE for exclusive access in directory: /Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/datadictionary
+18/06/20 11:01:23.250 PDT run-main-0<tid=0x2e> INFO snappystore: Recovered disk store GFXD-DD-DISKSTORE with unique id f553a80d-f50b-492d-997b-d6865c741f12
+18/06/20 11:01:23.251 PDT run-main-0<tid=0x2e> INFO snappystore: Recovering oplog#1 /Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/datadictionary/BACKUPGFXD-DD-DISKSTORE_1.drf for disk store GFXD-DD-DISKSTORE.
+18/06/20 11:01:23.251 PDT run-main-0<tid=0x2e> INFO snappystore: Recovering oplog#1 /Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/datadictionary/BACKUPGFXD-DD-DISKSTORE_1.crf for disk store GFXD-DD-DISKSTORE.
+18/06/20 11:01:23.262 PDT run-main-0<tid=0x2e> INFO snappystore: recovery oplog load took 11 ms
+18/06/20 11:01:23.264 PDT run-main-0<tid=0x2e> INFO snappystore: Created oplog#2 drf for disk store GFXD-DD-DISKSTORE.
+18/06/20 11:01:23.278 PDT run-main-0<tid=0x2e> INFO snappystore: Created oplog#2 crf for disk store GFXD-DD-DISKSTORE.
+18/06/20 11:01:23.280 PDT run-main-0<tid=0x2e> INFO snappystore: recoverOplogs oplog: oplog#1 parent: GFXD-DD-DISKSTORE, needskrf: true
+18/06/20 11:01:23.280 PDT run-main-0<tid=0x2e> INFO snappystore: createKrfAsync called for oplog: oplog#1, parent: GFXD-DD-DISKSTORE
+18/06/20 11:01:23.281 PDT run-main-0<tid=0x2e> INFO snappystore: recovery region initialization took 18 ms
+18/06/20 11:01:23.285 PDT run-main-0<tid=0x2e> INFO snappystore: Initializing region GFXD_PdxTypes
+18/06/20 11:01:23.286 PDT run-main-0<tid=0x2e> INFO snappystore: Region /GFXD_PdxTypes recovered from the local disk. Old persistent ID: /192.168.0.9:/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/datadictionary created at timestamp 1529517084290 version 0 diskStoreId f553a80d-f50b-492d-997b-d6865c741f12 name , new persistent ID /192.168.0.9:/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/datadictionary created at timestamp 1529517683285 version 0 diskStoreId f553a80d-f50b-492d-997b-d6865c741f12 name 
+18/06/20 11:01:23.323 PDT run-main-0<tid=0x2e> INFO snappystore: Initializing region __PR
+18/06/20 11:01:23.352 PDT run-main-0<tid=0x2e> INFO snappystore: Partitioned Region /__IDENTITYREGION2 is born with prId=1 ident:#__IDENTITYREGION2
+18/06/20 11:01:23.561 PDT run-main-0<tid=0x2e> INFO snappystore: Initializing region _monitoringRegion_192.168.0.9<v-1>0
+18/06/20 11:01:23.565 PDT run-main-0<tid=0x2e> WARN snappystore: Error occurred while handling management event for com.pivotal.gemfirexd.internal.engine.store.GemFireStore@1ac26acc
+java.lang.NoClassDefFoundError: Could not initialize class com.gemstone.gemfire.internal.process.ProcessUtils
+	at com.gemstone.gemfire.management.internal.beans.MemberMBeanBridge.<init>(MemberMBeanBridge.java:420)
+	at com.pivotal.gemfirexd.internal.engine.management.impl.InternalManagementService.handleFabricDBBoot(InternalManagementService.java:285)
+	at com.pivotal.gemfirexd.internal.engine.management.impl.InternalManagementService.handleEvent(InternalManagementService.java:211)
+	at com.pivotal.gemfirexd.internal.engine.management.GfxdManagementService.handleEventForManagement(GfxdManagementService.java:109)
+	at com.pivotal.gemfirexd.internal.engine.management.GfxdManagementService.handleEvent(GfxdManagementService.java:87)
+	at com.pivotal.gemfirexd.internal.engine.db.FabricDatabase.boot(FabricDatabase.java:421)
+	at com.pivotal.gemfirexd.internal.impl.services.monitor.BaseMonitor.boot(BaseMonitor.java:2245)
+	at com.pivotal.gemfirexd.internal.impl.services.monitor.TopService.bootModule(TopService.java:314)
+	at com.pivotal.gemfirexd.internal.impl.services.monitor.BaseMonitor.bootService(BaseMonitor.java:2043)
+	at com.pivotal.gemfirexd.internal.impl.services.monitor.BaseMonitor.startProviderService(BaseMonitor.java:1906)
+	at com.pivotal.gemfirexd.internal.impl.services.monitor.BaseMonitor.findProviderAndStartService(BaseMonitor.java:1786)
+	at com.pivotal.gemfirexd.internal.impl.services.monitor.BaseMonitor.startPersistentService(BaseMonitor.java:1196)
+	at com.pivotal.gemfirexd.internal.iapi.services.monitor.Monitor.startPersistentService(Monitor.java:620)
+	at com.pivotal.gemfirexd.internal.impl.jdbc.EmbedConnection.bootDatabase(EmbedConnection.java:3392)
+	at com.pivotal.gemfirexd.internal.impl.jdbc.EmbedConnection.<init>(EmbedConnection.java:453)
+	at com.pivotal.gemfirexd.internal.impl.jdbc.EmbedConnection30.<init>(EmbedConnection30.java:94)
+	at com.pivotal.gemfirexd.internal.impl.jdbc.EmbedConnection40.<init>(EmbedConnection40.java:75)
+	at com.pivotal.gemfirexd.internal.jdbc.Driver40.getNewEmbedConnection(Driver40.java:95)
+	at com.pivotal.gemfirexd.internal.jdbc.InternalDriver.connect(InternalDriver.java:351)
+	at com.pivotal.gemfirexd.internal.jdbc.InternalDriver.connect(InternalDriver.java:219)
+	at com.pivotal.gemfirexd.internal.jdbc.InternalDriver.connect(InternalDriver.java:195)
+	at io.snappydata.jdbc.AutoloadedDriver.connect(AutoloadedDriver.java:153)
+	at com.pivotal.gemfirexd.internal.engine.fabricservice.FabricServiceImpl.startImpl(FabricServiceImpl.java:282)
+	at com.pivotal.gemfirexd.internal.engine.fabricservice.FabricServerImpl.start(FabricServerImpl.java:72)
+	at io.snappydata.impl.ServerImpl.start(ServerImpl.scala:43)
+	at io.snappydata.impl.ServerImpl.start(ServerImpl.scala:38)
+	at io.snappydata.util.ServiceUtils$.invokeStartFabricServer(ServiceUtils.scala:102)
+	at org.apache.spark.sql.SnappyContext$.invokeServices(SnappyContext.scala:1135)
+	at org.apache.spark.sql.SnappyContext$.initGlobalSparkContext(SnappyContext.scala:1090)
+	at org.apache.spark.sql.SnappyContext$.initGlobalSnappyContext(SnappyContext.scala:1105)
+	at org.apache.spark.sql.SnappySession.<init>(SnappySession.scala:130)
+	at snappySessionization$.main(main.scala:16)
+	at snappySessionization.main(main.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sbt.Run.invokeMain(Run.scala:67)
+	at sbt.Run.run0(Run.scala:61)
+	at sbt.Run.sbt$Run$$execute$1(Run.scala:51)
+	at sbt.Run$$anonfun$run$1.apply$mcV$sp(Run.scala:55)
+	at sbt.Run$$anonfun$run$1.apply(Run.scala:55)
+	at sbt.Run$$anonfun$run$1.apply(Run.scala:55)
+	at sbt.Logger$$anon$4.apply(Logger.scala:85)
+	at sbt.TrapExit$App.run(TrapExit.scala:248)
+	at java.lang.Thread.run(Thread.java:745)
+18/06/20 11:01:23.566 PDT run-main-0<tid=0x2e> INFO snappystore: Snapshot is enabled true
+18/06/20 11:01:23.566 PDT run-main-0<tid=0x2e> INFO snappystore: Snapshot is enabled, starting the cleaner thread.
+18/06/20 11:01:23.593 PDT run-main-0<tid=0x2e> INFO snappystore: acquired dd read lock during post create
+18/06/20 11:01:23.613 PDT run-main-0<tid=0x2e> INFO snappystore: FabricDatabase: starting initial replay for entry: {QueueValue: key=3, value={DDLConflatable [3] SQLText [CREATE TABLE SNAPPY_HIVE_METASTORE.DBS
+(
+    DB_ID BIGINT NOT NULL,
+    "DESC" VARCHAR(4000),
+    DB_LOCATION_URI VARCHAR(4000) NOT NULL,
+    "NAME" VARCHAR(128),
+    OWNER_NAME VARCHAR(128),
+    OWNER_TYPE VARCHAR(10)
+)] fullTableName=SNAPPY_HIVE_METASTORE.DBS;defaultSchema=SNAPPY_HIVE_METASTORE;objectName=null;isCreateTable=true;isDropStatement=false;isAlterTable=false;isAlterTableDropFKConstraint=false;constraintName=null;droppedFKConstraints=null;flags=0x89;additionalFlags=0x30;skipLocalPeek=1;isHDFSPersistent=true;hdfsstoreName=null} [sequence: 3]}
+18/06/20 11:01:24.049 PDT run-main-0<tid=0x2e> INFO snappystore: TraceDDLReplay: Setting default schema to APP
+18/06/20 11:01:24.053 PDT run-main-0<tid=0x2e> INFO snappystore: TraceConglom: Using the JVM as an GemFireXD datastore for table [APP.SUPPLIER] with table-default-partitioned=false default-persistent=false
+18/06/20 11:01:24.054 PDT run-main-0<tid=0x2e> INFO snappystore: TraceConglom: GemFireTransaction TX 2: created conglomerate with id 171: [table: APP.SUPPLIER, id: Container(0, 171), isAppTable=true]
+18/06/20 11:01:24.067 PDT run-main-0<tid=0x2e> INFO snappystore: TraceConglom: Created table "APP"."SUPPLIER" with UUID: edbc8255-0164-1e5b-a874-0000358d9bb8
+18/06/20 11:01:24.067 PDT run-main-0<tid=0x2e> INFO snappystore: FabricDatabase: successfully replayed entry having sequenceId=127
+18/06/20 11:01:24.070 PDT run-main-0<tid=0x2e> INFO snappystore: FabricDatabase: waiting for index loading from GFXD-DEFAULT-DISKSTORE
+18/06/20 11:01:24.070 PDT run-main-0<tid=0x2e> INFO snappystore: FabricDatabase: Index loading completed for GFXD-DEFAULT-DISKSTORE in 0 ms
+18/06/20 11:01:24.070 PDT run-main-0<tid=0x2e> INFO snappystore: FabricDatabase: waiting for index loading from SNAPPY-INTERNAL-DELTA
+18/06/20 11:01:24.076 PDT Idle OplogCompactor<tid=0x85> INFO snappystore: Created oplog#1 krf for disk store GFXD-DEFAULT-DISKSTORE.
+18/06/20 11:01:24.078 PDT Idle OplogCompactor<tid=0x85> INFO snappystore: Created oplog#1 idxkrf for disk store GFXD-DEFAULT-DISKSTORE.
+18/06/20 11:01:24.078 PDT Idle OplogCompactor<tid=0x85> INFO snappystore: Created oplog#1 /Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/BACKUPGFXD-DEFAULT-DISKSTORE_1.1.idxkrf for disk store GFXD-DEFAULT-DISKSTORE.
+18/06/20 11:01:24.080 PDT run-main-0<tid=0x2e> INFO snappystore: FabricDatabase: Index loading completed for SNAPPY-INTERNAL-DELTA in 10 ms
+18/06/20 11:01:24.080 PDT run-main-0<tid=0x2e> INFO snappystore: FabricDatabase: waiting for index loading from GFXD-DD-DISKSTORE
+18/06/20 11:01:24.085 PDT Idle OplogCompactor<tid=0x85> INFO snappystore: Oplog#recoverIndexes: recovering values from oplog#1
+18/06/20 11:01:24.088 PDT run-main-0<tid=0x2e> INFO snappystore: FabricDatabase: Index loading completed for GFXD-DD-DISKSTORE in 8 ms
+18/06/20 11:01:24.094 PDT Idle OplogCompactor<tid=0x85> INFO snappystore: Created oplog#1 krf for disk store GFXD-DD-DISKSTORE.
+18/06/20 11:01:24.095 PDT Idle OplogCompactor<tid=0x85> INFO snappystore: Created oplog#1 idxkrf for disk store GFXD-DD-DISKSTORE.
+18/06/20 11:01:24.099 PDT Idle OplogCompactor<tid=0x85> INFO snappystore: Created oplog#1 /Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/datadictionary/BACKUPGFXD-DD-DISKSTORE_1.1.idxkrf for disk store GFXD-DD-DISKSTORE.
+18/06/20 11:01:24.110 PDT run-main-0<tid=0x2e> INFO snappystore: FabricDatabase: start initializing container: [table: APP.SUPPLIER, id: Container(0, 171), isAppTable=true]
+18/06/20 11:01:24.110 PDT run-main-0<tid=0x2e> INFO snappystore: Initializing region SUPPLIER
+18/06/20 11:01:24.110 PDT run-main-0<tid=0x2e> INFO snappystore: Region /APP/SUPPLIER recovered from the local disk. Old persistent ID: /192.168.0.9:/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization created at timestamp 1529517089077 version 0 diskStoreId d93242bb-fc58-446f-8be4-8d876299682f name , new persistent ID /192.168.0.9:/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization created at timestamp 1529517684056 version 0 diskStoreId d93242bb-fc58-446f-8be4-8d876299682f name 
+18/06/20 11:01:24.114 PDT run-main-0<tid=0x2e> INFO snappystore: Overridding MemoryPoolMXBean heap threshold bytes 0 on pool PS Old Gen
+18/06/20 11:01:24.114 PDT run-main-0<tid=0x2e> INFO snappystore: : Initializing UUID advisor UUIDAdvisor for /APP/SUPPLIER {PERSISTENT}
+18/06/20 11:01:24.114 PDT run-main-0<tid=0x2e> INFO snappystore: FabricDatabase: end initializing container: [table: APP.SUPPLIER, id: Container(0, 171), isAppTable=true]
+18/06/20 11:01:24.115 PDT run-main-0<tid=0x2e> INFO snappystore: TraceConglom: Concurrency checks enabled for table APP.SUPPLIER
+18/06/20 11:01:24.177 PDT run-main-0<tid=0x2e> INFO snappystore: FabricDatabase: initial DDL replay completed.
+18/06/20 11:01:24.179 PDT run-main-0<tid=0x2e> INFO snappystore: FabricDatabase: Authentication recheck successful.
+18/06/20 11:01:24.182 PDT HiveMetaStore Client<tid=0x8d> INFO snappystore: Starting hive meta-store initialization
+18/06/20 11:01:26.771 PDT HiveMetaStore Client<tid=0x8d> INFO snappystore: Done hive meta-store initialization
+18/06/20 11:01:26.959 PDT run-main-0<tid=0x2e> INFO Persistence: Property hive.metastore.integral.jdo.pushdown unknown - will be ignored
+18/06/20 11:01:26.959 PDT run-main-0<tid=0x2e> INFO Persistence: Property datanucleus.cache.level2 unknown - will be ignored
+18/06/20 11:01:27.142 PDT run-main-0<tid=0x2e> INFO snappystore: TraceDDLReplay: EmbedStatement: Persisting statement on HDFS DROP FUNCTION NUCLEUS_ASCII this : Pierces-MacBook-Pro(38118:loner):0:a6aa5b1e
+18/06/20 11:01:27.145 PDT run-main-0<tid=0x2e> INFO snappystore: TraceDDLReplay: EmbedStatement: Persisting statement on HDFS CREATE FUNCTION NUCLEUS_ASCII(C CHAR(1)) RETURNS INTEGER EXTERNAL NAME 'org.datanucleus.store.rdbms.adapter.DerbySQLFunction.ascii' CALLED ON NULL INPUT LANGUAGE JAVA PARAMETER STYLE JAVA this : Pierces-MacBook-Pro(38118:loner):0:a6aa5b1e
+18/06/20 11:01:27.147 PDT run-main-0<tid=0x2e> INFO snappystore: TraceDDLReplay: EmbedStatement: Persisting statement on HDFS DROP FUNCTION NUCLEUS_MATCHES this : Pierces-MacBook-Pro(38118:loner):0:a6aa5b1e
+18/06/20 11:01:27.150 PDT run-main-0<tid=0x2e> INFO snappystore: TraceDDLReplay: EmbedStatement: Persisting statement on HDFS CREATE FUNCTION NUCLEUS_MATCHES(TEXT VARCHAR(8000), PATTERN VARCHAR(8000)) RETURNS INTEGER EXTERNAL NAME 'org.datanucleus.store.rdbms.adapter.DerbySQLFunction.matches' CALLED ON NULL INPUT LANGUAGE JAVA PARAMETER STYLE JAVA this : Pierces-MacBook-Pro(38118:loner):0:a6aa5b1e
+18/06/20 11:01:27.200 PDT run-main-0<tid=0x2e> INFO snappystore: 
+[TRACE 2018/06/20 11:01:27.200 PDT GFXD:TRACE <run-main-0> tid=0x2e] (XID = 168(UserTransaction)@786cdb5c;txState=GfxdTXStateProxy@(TXId[0:439 => Pierces-MacBook-Pro(38118:loner):0:a6aa5b1e],state=OPEN{READ_COMMITTED}{COORDINATOR}{BATCHING}{SYNCCOMMITS}@0x54bcb7ef);supportsTX=true), (SESSIONID = 8), (DATABASE = snappydata), (DRDAID = null), Failed Statement is: SET @@session.sql_mode=ANSI_QUOTES
+
+[TRACE 2018/06/20 11:01:27.200 PDT GFXD:TRACE <run-main-0> tid=0x2e] ERROR 42X02: Lexical error at line 1, column 5.  Encountered: "@" (64), after : "".
+
+18/06/20 11:01:27.202 PDT run-main-0<tid=0x2e> INFO snappystore: 
+[TRACE 2018/06/20 11:01:27.202 PDT GFXD:TRACE <run-main-0> tid=0x2e] (XID = 168(UserTransaction)@786cdb5c;txState=GfxdTXStateProxy@(TXId[0:442 => Pierces-MacBook-Pro(38118:loner):0:a6aa5b1e],state=OPEN{READ_COMMITTED}{COORDINATOR}{BATCHING}{SYNCCOMMITS}@0x75a260d7);supportsTX=true), (SESSIONID = 8), (DATABASE = snappydata), (DRDAID = null), Failed Statement is: SELECT version FROM v$instance
+
+[TRACE 2018/06/20 11:01:27.202 PDT GFXD:TRACE <run-main-0> tid=0x2e] ERROR 42X01: Syntax error: Encountered "$" at line 1, column 22.
+Was expecting one of:
+    <EOF> 
+    ...
+    "except" ...
+    "fetch" ...
+    "for" ...
+    "group" ...
+    "having" ...
+    "intersect" ...
+    "order" ...
+    "union" ...
+    .
+
+18/06/20 11:01:27.203 PDT run-main-0<tid=0x2e> INFO snappystore: 
+[TRACE 2018/06/20 11:01:27.202 PDT GFXD:TRACE <run-main-0> tid=0x2e] (XID = 168(UserTransaction)@786cdb5c;txState=GfxdTXStateProxy@(TXId[0:445 => Pierces-MacBook-Pro(38118:loner):0:a6aa5b1e],state=OPEN{READ_COMMITTED}{COORDINATOR}{BATCHING}{SYNCCOMMITS}@0x72897985);supportsTX=true), (SESSIONID = 8), (DATABASE = snappydata), (DRDAID = null), Failed Statement is: SELECT @@version
+
+[TRACE 2018/06/20 11:01:27.203 PDT GFXD:TRACE <run-main-0> tid=0x2e] ERROR 42X02: Lexical error at line 1, column 8.  Encountered: "@" (64), after : "".
+
+18/06/20 11:01:27.217 PDT run-main-0<tid=0x2e> INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+18/06/20 11:01:27.218 PDT run-main-0<tid=0x2e> INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+18/06/20 11:01:27.276 PDT run-main-0<tid=0x2e> INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+18/06/20 11:01:27.277 PDT run-main-0<tid=0x2e> INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+18/06/20 11:01:27.296 PDT run-main-0<tid=0x2e> INFO Query: Reading in results for query "org.datanucleus.store.rdbms.query.SQLQuery@0" since the connection used is closing
+18/06/20 11:01:27.352 PDT run-main-0<tid=0x2e> INFO HiveClientImpl: Warehouse location for Hive client (version 1.2.1) is /Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/./warehouse
+18/06/20 11:01:27.366 PDT run-main-0<tid=0x2e> WARN ObjectStore: Failed to get database GLOBAL_TEMP, returning NoSuchObjectException
+18/06/20 11:01:27.652 PDT run-main-0<tid=0x2e> INFO HiveClientImpl: Warehouse location for Hive client (version 1.2.1) is /Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/./warehouse
+18/06/20 11:01:28.019 PDT SparkListenerBus<tid=0x30> ERROR Utils: uncaught error in thread SparkListenerBus, stopping SparkContext
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.doAcquireSharedInterruptibly(AbstractQueuedSynchronizer.java:998)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1304)
+	at java.util.concurrent.Semaphore.acquire(Semaphore.java:312)
+	at org.apache.spark.scheduler.LiveListenerBus$$anon$1$$anonfun$run$1$$anonfun$apply$mcV$sp$1.apply$mcV$sp(LiveListenerBus.scala:80)
+	at org.apache.spark.scheduler.LiveListenerBus$$anon$1$$anonfun$run$1$$anonfun$apply$mcV$sp$1.apply(LiveListenerBus.scala:79)
+	at org.apache.spark.scheduler.LiveListenerBus$$anon$1$$anonfun$run$1$$anonfun$apply$mcV$sp$1.apply(LiveListenerBus.scala:79)
+	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:58)
+	at org.apache.spark.scheduler.LiveListenerBus$$anon$1$$anonfun$run$1.apply$mcV$sp(LiveListenerBus.scala:78)
+	at org.apache.spark.util.Utils$.tryOrStopSparkContext(Utils.scala:1306)
+	at org.apache.spark.scheduler.LiveListenerBus$$anon$1.run(LiveListenerBus.scala:77)
+18/06/20 11:01:28.020 PDT Lock Grantor for __VMID_LS<tid=0x8c> WARN snappystore: DLockGrantorThread was unexpectedly interrupted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at com.gemstone.gemfire.distributed.internal.locks.DLockGrantor$DLockGrantorThread.run(DLockGrantor.java:3707)
+18/06/20 11:01:28.021 PDT SparkListenerBus<tid=0x30> ERROR Utils: throw uncaught fatal error in thread SparkListenerBus
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.doAcquireSharedInterruptibly(AbstractQueuedSynchronizer.java:998)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1304)
+	at java.util.concurrent.Semaphore.acquire(Semaphore.java:312)
+	at org.apache.spark.scheduler.LiveListenerBus$$anon$1$$anonfun$run$1$$anonfun$apply$mcV$sp$1.apply$mcV$sp(LiveListenerBus.scala:80)
+	at org.apache.spark.scheduler.LiveListenerBus$$anon$1$$anonfun$run$1$$anonfun$apply$mcV$sp$1.apply(LiveListenerBus.scala:79)
+	at org.apache.spark.scheduler.LiveListenerBus$$anon$1$$anonfun$run$1$$anonfun$apply$mcV$sp$1.apply(LiveListenerBus.scala:79)
+	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:58)
+	at org.apache.spark.scheduler.LiveListenerBus$$anon$1$$anonfun$run$1.apply$mcV$sp(LiveListenerBus.scala:78)
+	at org.apache.spark.util.Utils$.tryOrStopSparkContext(Utils.scala:1306)
+	at org.apache.spark.scheduler.LiveListenerBus$$anon$1.run(LiveListenerBus.scala:77)
+18/06/20 11:01:28.034 PDT Lock Grantor for __PRLS<tid=0x88> WARN snappystore: DLockGrantorThread was unexpectedly interrupted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at com.gemstone.gemfire.distributed.internal.locks.DLockGrantor$DLockGrantorThread.run(DLockGrantor.java:3707)
+18/06/20 11:01:28.037 PDT SIGIO handler<tid=0x9d> WARN snappystore: SignalHandler: received explicit OS signal SIGIO
+java.lang.Throwable
+	at com.pivotal.gemfirexd.internal.engine.SigThreadDumpHandler.handle(SigThreadDumpHandler.java:112)
+	at sun.misc.Signal$1.run(Signal.java:212)
+	at java.lang.Thread.run(Thread.java:745)
+18/06/20 11:01:28.038 PDT Spark Context Cleaner<tid=0x70> ERROR ContextCleaner: Error in cleaning thread
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+	at org.apache.spark.ContextCleaner$$anonfun$org$apache$spark$ContextCleaner$$keepCleaning$1.apply$mcV$sp(ContextCleaner.scala:181)
+	at org.apache.spark.util.Utils$.tryOrStopSparkContext(Utils.scala:1306)
+	at org.apache.spark.ContextCleaner.org$apache$spark$ContextCleaner$$keepCleaning(ContextCleaner.scala:178)
+	at org.apache.spark.ContextCleaner$$anon$1.run(ContextCleaner.scala:73)
+18/06/20 11:01:28.039 PDT Lock Grantor for gfxd-ddl-lock-service<tid=0x8e> WARN snappystore: DLockGrantorThread was unexpectedly interrupted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at com.gemstone.gemfire.distributed.internal.locks.DLockGrantor$DLockGrantorThread.run(DLockGrantor.java:3707)
+18/06/20 11:01:28.040 PDT org.apache.hadoop.fs.FileSystem$Statistics$StatisticsDataReferenceCleaner<tid=0x72> WARN FileSystem: exception in the cleaner thread but it will continue to run
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:164)
+	at org.apache.hadoop.fs.FileSystem$Statistics$StatisticsDataReferenceCleaner.run(FileSystem.java:3063)
+	at java.lang.Thread.run(Thread.java:745)
+18/06/20 11:01:28.040 PDT gemfirexd.QueryCanceller<tid=0x82> INFO snappystore: GfxdHeapThreshold: Query Cancellation Thread Interrupted 
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at com.pivotal.gemfirexd.internal.engine.sql.conn.GfxdHeapThresholdListener$GfxdQueryCanceller.run(GfxdHeapThresholdListener.java:238)
+	at java.lang.Thread.run(Thread.java:745)
+18/06/20 11:01:28.040 PDT gemfirexd.QueryCanceller<tid=0x82> INFO snappystore: GfxdHeapThreshold: Query Cancellation Thread Stopped 
+18/06/20 11:01:28.046 PDT stop-spark-context<tid=0x9b> INFO SparkUI: Stopped Spark web UI at http://192.168.0.9:4040
+18/06/20 11:01:28.068 PDT Distributed system shutdown hook<tid=0x73> INFO snappystore: VM is exiting - shutting down distributed system
+18/06/20 11:01:28.069 PDT Distributed system shutdown hook<tid=0x73> INFO snappystore: GemFireCache[id = 530684993; isClosing = true; isShutDownAll = false; closingGatewayHubsByShutdownAll = false; created = Wed Jun 20 11:01:21 PDT 2018; server = false; copyOnRead = false; lockLease = 120; lockTimeout = 60]: Now closing.
+18/06/20 11:01:28.071 PDT Thread-2<tid=0x51> INFO DiskBlockManager: Shutdown hook called
+18/06/20 11:01:28.073 PDT Distributed system shutdown hook<tid=0x73> INFO snappystore: Created oplog#2 krf for disk store GFXD-DEFAULT-DISKSTORE.
+18/06/20 11:01:28.073 PDT Distributed system shutdown hook<tid=0x73> INFO snappystore: Created oplog#2 idxkrf for disk store GFXD-DEFAULT-DISKSTORE.
+18/06/20 11:01:28.073 PDT Distributed system shutdown hook<tid=0x73> INFO snappystore: Created oplog#2 /Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/BACKUPGFXD-DEFAULT-DISKSTORE_2.1.idxkrf for disk store GFXD-DEFAULT-DISKSTORE.
+18/06/20 11:01:28.074 PDT Thread-2<tid=0x51> INFO ShutdownHookManager: Shutdown hook called
+18/06/20 11:01:28.076 PDT Distributed system shutdown hook<tid=0x73> INFO snappystore: Created oplog#2 krf for disk store GFXD-DD-DISKSTORE.
+18/06/20 11:01:28.076 PDT Distributed system shutdown hook<tid=0x73> INFO snappystore: Created oplog#2 idxkrf for disk store GFXD-DD-DISKSTORE.
+18/06/20 11:01:28.076 PDT Thread-2<tid=0x51> INFO ShutdownHookManager: Deleting directory /private/var/folders/w1/v_m_9hp567qdv77k1rrglw_c0000gn/T/spark-3ad6c719-7f4c-45f6-8333-b826f2e50e71/userFiles-78e682f8-cf27-44e3-b962-5745a7f97591
+18/06/20 11:01:28.077 PDT Thread-2<tid=0x51> INFO ShutdownHookManager: Deleting directory /private/var/folders/w1/v_m_9hp567qdv77k1rrglw_c0000gn/T/spark-3ad6c719-7f4c-45f6-8333-b826f2e50e71
+18/06/20 11:01:28.077 PDT Distributed system shutdown hook<tid=0x73> INFO snappystore: Created oplog#2 /Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/datadictionary/BACKUPGFXD-DD-DISKSTORE_2.1.idxkrf for disk store GFXD-DD-DISKSTORE.
+18/06/20 11:01:28.095 PDT Distributed system shutdown hook<tid=0x73> INFO snappystore: closing DiskStore[GFXD-DEFAULT-DISKSTORE]
+18/06/20 11:01:28.096 PDT Distributed system shutdown hook<tid=0x73> INFO snappystore: Unlocked disk store GFXD-DEFAULT-DISKSTORE
+18/06/20 11:01:28.096 PDT Distributed system shutdown hook<tid=0x73> INFO snappystore: closing DiskStore[SNAPPY-INTERNAL-DELTA]
+18/06/20 11:01:28.097 PDT Distributed system shutdown hook<tid=0x73> INFO snappystore: Unlocked disk store SNAPPY-INTERNAL-DELTA
+18/06/20 11:01:28.097 PDT Distributed system shutdown hook<tid=0x73> INFO snappystore: closing DiskStore[GFXD-DD-DISKSTORE]
+18/06/20 11:01:28.097 PDT Distributed system shutdown hook<tid=0x73> INFO snappystore: Unlocked disk store GFXD-DD-DISKSTORE
+18/06/20 11:01:28.097 PDT Distributed system shutdown hook<tid=0x73> INFO snappystore: Stopping DiskStore task pools

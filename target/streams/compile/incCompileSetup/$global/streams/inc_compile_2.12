@@ -1,0 +1,127 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/target/scala-2.12/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.12.6
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+2 items
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> /Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/target/scala-2.12/classes/snappySessionization$.class
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> /Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/target/scala-2.12/classes/snappySessionization.class
+binary dependencies:
+5 items
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_72.jdk/Contents/Home/jre/lib/rt.jar
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> /Users/plamb/.ivy2/cache/io.snappydata/snappy-spark-catalyst_2.11/jars/snappy-spark-catalyst_2.11-2.1.1.2.jar
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> /Users/plamb/.ivy2/cache/io.snappydata/snappy-spark-sql_2.11/jars/snappy-spark-sql_2.11-2.1.1.2.jar
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> /Users/plamb/.ivy2/cache/io.snappydata/snappydata-core_2.11/jars/snappydata-core_2.11-1.0.1.jar
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> /Users/plamb/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.6.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+2 items
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> snappySessionization
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> snappySessionization$
+used names:
+40 items
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> ->
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> <init>
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> AnyRef
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> Array
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> ClassTag
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> DecimalType
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> IntegerType
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> Map
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> Predef
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> SnappySession
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> SparkSession
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> String
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> StringType
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> StructType
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> Unit
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> apache
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> appName
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> apply
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> builder
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> collect
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> createTable
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> foreach
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> getOrCreate
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> master
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> materializeClassTag
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> org
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> package
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> println
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> props1
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> refArrayOps
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> reflect
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> scala
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> schema
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> snSession
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> snappySessionization
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> spark
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> sparkContext
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> sql
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> tableData
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> types
+product stamps:
+2 items
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/target/scala-2.12/classes/snappySessionization$.class -> lastModified(1529516957000)
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/target/scala-2.12/classes/snappySessionization.class -> lastModified(1529516957000)
+source stamps:
+1 items
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> hash(7180d5e2ce5d3aab36ab708fda757aec70267e8e)
+binary stamps:
+5 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_72.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1450828997000)
+/Users/plamb/.ivy2/cache/io.snappydata/snappy-spark-catalyst_2.11/jars/snappy-spark-catalyst_2.11-2.1.1.2.jar -> lastModified(1518596701000)
+/Users/plamb/.ivy2/cache/io.snappydata/snappy-spark-sql_2.11/jars/snappy-spark-sql_2.11-2.1.1.2.jar -> lastModified(1518598311000)
+/Users/plamb/.ivy2/cache/io.snappydata/snappydata-core_2.11/jars/snappydata-core_2.11-1.0.1.jar -> lastModified(1518596417000)
+/Users/plamb/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.6.jar -> lastModified(1524818407000)
+class names:
+5 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_72.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
+/Users/plamb/.ivy2/cache/io.snappydata/snappy-spark-catalyst_2.11/jars/snappy-spark-catalyst_2.11-2.1.1.2.jar -> org.apache.spark.sql.types.StructField
+/Users/plamb/.ivy2/cache/io.snappydata/snappy-spark-sql_2.11/jars/snappy-spark-sql_2.11-2.1.1.2.jar -> org.apache.spark.sql.SparkSession
+/Users/plamb/.ivy2/cache/io.snappydata/snappydata-core_2.11/jars/snappydata-core_2.11-1.0.1.jar -> org.apache.spark.sql.SnappySession$
+/Users/plamb/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.6.jar -> scala.collection.immutable.Map
+internal apis:
+1 items
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBntnZ4AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cH/2lrR0AAZub3RpZnlzcQB+AAx3XQkxdAAEd2FpdHNxAH4ADHxxdeJ0AA0kYXNJbnN0YW5jZU9mc3EAfgAMz5fJ/HQABmVxdWFsc3NxAH4ADII9hC90AAxhc0luc3RhbmNlT2ZzcQB+AAx8tN4IdAAMc3luY2hyb25pemVkc3EAfgAMjpDdLXQADSRpc0luc3RhbmNlT2ZzcQB+AAya2NeCdAAEbWFpbnNxAH4ADINAXMB0ABRzbmFwcHlTZXNzaW9uaXphdGlvbnNxAH4ADJSgvgV0AAlub3RpZnlBbGxzcQB+AAyQ3ExpdAAMaXNJbnN0YW5jZU9mc3EAfgAMInNWRnQAAj09c3EAfgAMKeX4FHQABWNsb25lc3EAfgAMn0I9pnQACHRvU3RyaW5nc3EAfgAMGZUvsXQAAiE9c3EAfgAMIdODXHQACGdldENsYXNzc3EAfgAMUNZRWnQAAm5lc3EAfgAMx6za63QAAmVxc3EAfgAMNwqEyXQAAiMjc3EAfgAMwaObMHQACGZpbmFsaXplc3EAfgAMrv53QXQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHEAfgAfdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAXQADHNjYWxhLm5hdGl2ZXNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AWnhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AWQBwc3EAfgBec3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEFMAAlpbmhlcml0ZWRxAH4AQUwAB3BhcmVudHNxAH4AQXhxAH4AYnNxAH4AWQBwc3EAfgBedXEAfgA8AAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBCcQB+AEt1cQB+AEwAAAAAc3EAfgBOAHEAfgAddXEAfgBQAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGF0AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBhc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB/dXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4AbHhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AU3QABVBsYWludAAEYXJnc3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4Ac1sADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AYXNxAH4AcnQABUFycmF5cQB+AHh1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4AcnQABlN0cmluZ3NxAH4AdnNxAH4AeXVxAH4AfAAAAANzcQB+AH50AARqYXZhc3EAfgB+dAAEbGFuZ3EAfgCDc3EAfgBZAHBzcQB+AF51cQB+ADwAAAAAc3EAfgBZAHBzcQB+AF51cQB+AJcAAAACc3EAfgBydAAGT2JqZWN0cQB+AJtzcQB+AHJ0AANBbnlxAH4AeHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFkHlCAKXVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AGMvVXNlcnMvcGxhbWIvRG9jdW1lbnRzL1NuYXBweURhdGEvQ29kaW5nL015X1Byb2plY3RzL3NuYXBweVNlc3Npb25pemF0aW9uL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABRxgNXizl06qzarcI/adXrscCZ+jg==
+external apis:
+0 items
+source infos:
+1 items
+/Users/plamb/Documents/SnappyData/Coding/My_Projects/snappySessionization/src/main/scala/main.scala -> 
+AAAAAAAAAAA=
+compilations:
+1 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZB5QgCl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAYy9Vc2Vycy9wbGFtYi9Eb2N1bWVudHMvU25hcHB5RGF0YS9Db2RpbmcvTXlfUHJvamVjdHMvc25hcHB5U2Vzc2lvbml6YXRpb24vdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=

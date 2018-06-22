@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: io.snappydata:snappydata-store-core:1.6.1:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/io.snappydata/snappydata-store-core/jars/snappydata-store-core-1.6.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/io.snappydata/snappydata-store-core/srcs/snappydata-store-core-1.6.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
