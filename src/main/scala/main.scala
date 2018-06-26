@@ -16,9 +16,6 @@ object snappySessionization {
 
     val snSession = new SnappyStreamingContext(spark.sparkContext, Duration(1))
 
-    //what an access log looks like:
-    //12:24:33.498 [application-akka.actor.default-dispatcher-3] INFO  access - 0:0:0:0:0:0:0:1 - -
-    //[22/Jun/2018:12:24:33 -0700] "GET /" 200 21286
 
     snSession.sql(
               "CREATE STREAM TABLE SnappySiteAccessLogs (" +

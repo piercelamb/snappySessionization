@@ -13,7 +13,7 @@ class AccessLogToRowsConverter extends StreamToRowsConverter with Serializable {
 
   override def toRows(message: Any): Seq[Row] = {
     val log = message.asInstanceOf[String]
-    val field = log.split(" - ")
+    val field = Option(log.split(" - ")).getOrElse(Array("1","2","3","4","5","6").mkString(",").split(","))
     Seq(
       Row.fromSeq(
         Seq(
