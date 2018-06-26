@@ -16,19 +16,18 @@ object snappySessionization {
 
     val snSession = new SnappyStreamingContext(spark.sparkContext, Duration(1))
 
-
     snSession.sql(
-              "CREATE STREAM TABLE SnappySiteAccessLogs (" +
+              "CREATE STREAM TABLE IF NOT EXISTS SnappySiteAccessLogs (" +
               " ip string," +
               " datetime timestamp," +
               " header string," +
               " response int," +
               " size long) " +
-              "USING kafka_stream options (" +
-              "STORAGELEVEL 'MEMORY_AND_DISK_SER_2', " +
-              "rowConverter 'Converters.AccessLogToRowsConverter' ," +
-              "kafkaParams 'zookeeper.connect->localhost:2181;auto.offset.reset->smallest;group.id->myGroupId', " +
-              "topics 'logs')"
+              " USING kafka_stream options (" +
+              " STORAGELEVEL 'MEMORY_AND_DISK_SER_2', " +
+              " rowConverter 'Converters.AccessLogToRowsConverter'," +
+              " kafkaParams 'zookeeper.connect->localhost:2181;auto.offset.reset->smallest;group.id->myGroupId', " +
+              " topics 'logs')"
     )
 
     snSession.start()

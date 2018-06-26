@@ -323,7 +323,7 @@ java.lang.ArrayIndexOutOfBoundsException: 1
 	at org.apache.spark.sql.aqp.SnappyContextFunctions.sql(SnappyContextFunctions.scala:91)
 	at org.apache.spark.sql.SnappySession.sqlUncached(SnappySession.scala:183)
 	at org.apache.spark.streaming.SnappyStreamingContext.sql(SnappyStreamingContext.scala:174)
-	at snappySessionization$.main(main.scala:20)
+	at snappySessionization$.main(main.scala:19)
 	at snappySessionization.main(main.scala)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -340,208 +340,208 @@ java.lang.ArrayIndexOutOfBoundsException: 1
 	at java.lang.Thread.run(Thread.java:745)
 [0m[[0mdebug[0m] [0m	Thread run-main-0 exited.[0m
 [0m[[0mdebug[0m] [0mInterrupting remaining threads (should be all daemons).[0m
-[0m[[0mdebug[0m] [0mInterrupting thread gemfirexd.QueryCanceller[0m
-[0m[[0mdebug[0m] [0m	Interrupted gemfirexd.QueryCanceller[0m
-[0m[[0mdebug[0m] [0mInterrupting thread rpc-server-3-8[0m
-[0m[[0mdebug[0m] [0m	Interrupted rpc-server-3-8[0m
-[0m[[0mdebug[0m] [0mInterrupting thread dispatcher-event-loop-6[0m
-[0m[[0mdebug[0m] [0m	Interrupted dispatcher-event-loop-6[0m
-[0m[[0mdebug[0m] [0mInterrupting thread rpc-server-3-3[0m
-[0m[[0mdebug[0m] [0m	Interrupted rpc-server-3-3[0m
-[0m[[0mdebug[0m] [0mInterrupting thread Notification Handler[0m
-[0m[[0mdebug[0m] [0m	Interrupted Notification Handler[0m
-[0m[[0mdebug[0m] [0mInterrupting thread rpc-server-3-1[0m
-[0m[[0mdebug[0m] [0m	Interrupted rpc-server-3-1[0m
-[0m[[0mdebug[0m] [0mInterrupting thread shuffle-server-5-6[0m
-[0m[[0mdebug[0m] [0m	Interrupted shuffle-server-5-6[0m
-[0m[[0mdebug[0m] [0mInterrupting thread driver-heartbeater[0m
-[0m[[0mdebug[0m] [0m	Interrupted driver-heartbeater[0m
-[0m[[0mdebug[0m] [0mInterrupting thread dispatcher-event-loop-1[0m
-[0m[[0mdebug[0m] [0m	Interrupted dispatcher-event-loop-1[0m
-[0m[[0mdebug[0m] [0mInterrupting thread Lock Grantor for __VMID_LS[0m
-[0m[[0mdebug[0m] [0m	Interrupted Lock Grantor for __VMID_LS[0m
-[0m[[0mdebug[0m] [0mInterrupting thread rpc-client-1-5[0m
-[0m[[0mdebug[0m] [0m	Interrupted rpc-client-1-5[0m
-[0m[[0mdebug[0m] [0mInterrupting thread Timer-3[0m
-[0m[[0mdebug[0m] [0m	Interrupted Timer-3[0m
-[0m[[0mdebug[0m] [0mInterrupting thread dispatcher-event-loop-5[0m
-[0m[[0mdebug[0m] [0m	Interrupted dispatcher-event-loop-5[0m
 [0m[[0mdebug[0m] [0mInterrupting thread gemfirexd.antiGC[0m
 [0m[[0mdebug[0m] [0m	Interrupted gemfirexd.antiGC[0m
-[0m[[0mdebug[0m] [0mInterrupting thread map-output-dispatcher-1[0m
-[0m[[0mdebug[0m] [0m	Interrupted map-output-dispatcher-1[0m
-[0m[[0mdebug[0m] [0mInterrupting thread map-output-dispatcher-0[0m
-[0m[[0mdebug[0m] [0m	Interrupted map-output-dispatcher-0[0m
-[0m[[0mdebug[0m] [0mInterrupting thread HiveMetaStore Client[0m
-[0m[[0mdebug[0m] [0m	Interrupted HiveMetaStore Client[0m
-[0m[[0mdebug[0m] [0mInterrupting thread shuffle-server-5-7[0m
-[0m[[0mdebug[0m] [0m	Interrupted shuffle-server-5-7[0m
-[0m[[0mdebug[0m] [0mInterrupting thread rpc-client-1-3[0m
-[0m[[0mdebug[0m] [0m	Interrupted rpc-client-1-3[0m
-[0m[[0mdebug[0m] [0mInterrupting thread SnappyData RowStore Garbage Collection Thread 1[0m
-[0m[[0mdebug[0m] [0m	Interrupted SnappyData RowStore Garbage Collection Thread 1[0m
-[0m[[0mdebug[0m] [0mInterrupting thread GemFireXD MBean Updater Threads 0[0m
-[0m[[0mdebug[0m] [0m	Interrupted GemFireXD MBean Updater Threads 0[0m
-[0m[[0mdebug[0m] [0mInterrupting thread SparkUI-82-selector-ServerConnectorManager@1c7f8a50/2[0m
-[0m[[0mdebug[0m] [0m	Interrupted SparkUI-82-selector-ServerConnectorManager@1c7f8a50/2[0m
-[0m[[0mdebug[0m] [0mInterrupting thread rpc-server-3-5[0m
-[0m[[0mdebug[0m] [0m	Interrupted rpc-server-3-5[0m
-[0m[[0mdebug[0m] [0mInterrupting thread rpc-server-3-7[0m
-[0m[[0mdebug[0m] [0m	Interrupted rpc-server-3-7[0m
-[0m[[0mdebug[0m] [0mInterrupting thread Management Task[0m
-[0m[[0mdebug[0m] [0m	Interrupted Management Task[0m
-[0m[[0mdebug[0m] [0mInterrupting thread rpc-server-3-2[0m
-[0m[[0mdebug[0m] [0m	Interrupted rpc-server-3-2[0m
 [0m[[0mdebug[0m] [0mInterrupting thread Asynchronous disk writer for region GFXD-DD-DISKSTORE[0m
 [0m[[0mdebug[0m] [0m	Interrupted Asynchronous disk writer for region GFXD-DD-DISKSTORE[0m
-[0m[[0mdebug[0m] [0mInterrupting thread heartbeat-receiver-event-loop-thread[0m
-[0m[[0mdebug[0m] [0m	Interrupted heartbeat-receiver-event-loop-thread[0m
-[0m[[0mdebug[0m] [0mInterrupting thread map-output-dispatcher-7[0m
-[0m[[0mdebug[0m] [0m	Interrupted map-output-dispatcher-7[0m
-[0m[[0mdebug[0m] [0mInterrupting thread rpc-client-1-8[0m
-[0m[[0mdebug[0m] [0m	Interrupted rpc-client-1-8[0m
-[0m[[0mdebug[0m] [0mInterrupting thread Lock Grantor for __PRLS[0m
-[0m[[0mdebug[0m] [0m	Interrupted Lock Grantor for __PRLS[0m
-[0m[[0mdebug[0m] [0mInterrupting thread SparkUI-80-selector-ServerConnectorManager@1c7f8a50/0[0m
-[0m[[0mdebug[0m] [0m	Interrupted SparkUI-80-selector-ServerConnectorManager@1c7f8a50/0[0m
-[0m[[0mdebug[0m] [0mInterrupting thread Thread-16 StatSampler[0m
-[0m[[0mdebug[0m] [0m	Interrupted Thread-16 StatSampler[0m
-[0m[[0mdebug[0m] [0mInterrupting thread rpc-client-1-6[0m
-[0m[[0mdebug[0m] [0m	Interrupted rpc-client-1-6[0m
-[0m[[0mdebug[0m] [0mInterrupting thread SparkUI-83-selector-ServerConnectorManager@1c7f8a50/3[0m
-[0m[[0mdebug[0m] [0m	Interrupted SparkUI-83-selector-ServerConnectorManager@1c7f8a50/3[0m
-[0m[[0mdebug[0m] [0mInterrupting thread dispatcher-event-loop-4[0m
-[0m[[0mdebug[0m] [0m	Interrupted dispatcher-event-loop-4[0m
-[0m[[0mdebug[0m] [0mInterrupting thread netty-rpc-env-timeout[0m
-[0m[[0mdebug[0m] [0m	Interrupted netty-rpc-env-timeout[0m
-[0m[[0mdebug[0m] [0mInterrupting thread dispatcher-event-loop-7[0m
-[0m[[0mdebug[0m] [0m	Interrupted dispatcher-event-loop-7[0m
-[0m[[0mdebug[0m] [0mInterrupting thread map-output-dispatcher-5[0m
-[0m[[31merror[0m] [0m(Asynchronous disk writer for region GFXD-DD-DISKSTORE) java.lang.IllegalStateException: Async writer thread stopping due to unexpected interrupt[0m
-[0m[[0mdebug[0m] [0m	Interrupted map-output-dispatcher-5[0m
-[0m[[0mdebug[0m] [0mInterrupting thread shuffle-client-4-1[0m
-[0m[[0mdebug[0m] [0m	Interrupted shuffle-client-4-1[0m
-java.lang.IllegalStateException: Async writer thread stopping due to unexpected interrupt
-	at com.gemstone.gemfire.internal.cache.DiskStoreImpl$FlusherThread.run(DiskStoreImpl.java:1900)
-	at java.lang.Thread.run(Thread.java:745)
-[0m[[0mdebug[0m] [0mInterrupting thread GemFireXD Connection open/close distributor thread[0m
-[0m[[0mdebug[0m] [0m	Interrupted GemFireXD Connection open/close distributor thread[0m
-[0m[[0mdebug[0m] [0mInterrupting thread Distributed system shutdown hook[0m
-[0m[[0mdebug[0m] [0m	Interrupted Distributed system shutdown hook[0m
-[0m[[0mdebug[0m] [0mInterrupting thread rpc-client-1-4[0m
-[0m[[0mdebug[0m] [0m	Interrupted rpc-client-1-4[0m
-[0m[[0mdebug[0m] [0mInterrupting thread rpc-client-1-2[0m
-[0m[[0mdebug[0m] [0m	Interrupted rpc-client-1-2[0m
-[0m[[0mdebug[0m] [0mInterrupting thread dispatcher-event-loop-3[0m
-[0m[[0mdebug[0m] [0m	Interrupted dispatcher-event-loop-3[0m
-[0m[[0mdebug[0m] [0mInterrupting thread Oplog Delete Task[0m
-[0m[[0mdebug[0m] [0m	Interrupted Oplog Delete Task[0m
-[0m[[0mdebug[0m] [0mInterrupting thread shuffle-client-4-3[0m
-[0m[[0mdebug[0m] [0m	Interrupted shuffle-client-4-3[0m
-[0m[[0mdebug[0m] [0mInterrupting thread rpc-client-1-1[0m
-[0m[[0mdebug[0m] [0m	Interrupted rpc-client-1-1[0m
-[0m[[0mdebug[0m] [0mInterrupting thread dispatcher-event-loop-2[0m
-[0m[[0mdebug[0m] [0m	Interrupted dispatcher-event-loop-2[0m
-[0m[[0mdebug[0m] [0mInterrupting thread map-output-dispatcher-6[0m
-[0m[[0mdebug[0m] [0m	Interrupted map-output-dispatcher-6[0m
-[0m[[0mdebug[0m] [0mInterrupting thread shuffle-client-4-6[0m
-[0m[[0mdebug[0m] [0m	Interrupted shuffle-client-4-6[0m
-[0m[[0mdebug[0m] [0mInterrupting thread Idle OplogCompactor[0m
-[0m[[0mdebug[0m] [0m	Interrupted Idle OplogCompactor[0m
-[0m[[0mdebug[0m] [0mInterrupting thread dispatcher-event-loop-0[0m
-[0m[[0mdebug[0m] [0m	Interrupted dispatcher-event-loop-0[0m
-[0m[[0mdebug[0m] [0mInterrupting thread SnappyData RowStore Garbage Collection Thread 2[0m
-[0m[[0mdebug[0m] [0m	Interrupted SnappyData RowStore Garbage Collection Thread 2[0m
-[0m[[0mdebug[0m] [0mInterrupting thread Thread-1[0m
-[0m[[0mdebug[0m] [0m	Interrupted Thread-1[0m
-[0m[[0mdebug[0m] [0mInterrupting thread SparkUI-81-selector-ServerConnectorManager@1c7f8a50/1[0m
-[0m[[0mdebug[0m] [0m	Interrupted SparkUI-81-selector-ServerConnectorManager@1c7f8a50/1[0m
-[0m[[0mdebug[0m] [0mInterrupting thread map-output-dispatcher-2[0m
-[0m[[0mdebug[0m] [0m	Interrupted map-output-dispatcher-2[0m
+[0m[[0mdebug[0m] [0mInterrupting thread rpc-client-1-3[0m
+[0m[[0mdebug[0m] [0m	Interrupted rpc-client-1-3[0m
 [0m[[0mdebug[0m] [0mInterrupting thread map-output-dispatcher-4[0m
 [0m[[0mdebug[0m] [0m	Interrupted map-output-dispatcher-4[0m
-[0m[[0mdebug[0m] [0mInterrupting thread SparkUI-84-acceptor-0@19ae2dcc-Spark@73db61aa{HTTP/1.1}{0.0.0.0:4040}[0m
-[0m[[0mdebug[0m] [0m	Interrupted SparkUI-84-acceptor-0@19ae2dcc-Spark@73db61aa{HTTP/1.1}{0.0.0.0:4040}[0m
-[0m[[0mdebug[0m] [0mInterrupting thread Spark Context Cleaner[0m
-[0m[[0mdebug[0m] [0m	Interrupted Spark Context Cleaner[0m
-[0m[[0mdebug[0m] [0mInterrupting thread dag-scheduler-event-loop[0m
-[0m[[0mdebug[0m] [0m	Interrupted dag-scheduler-event-loop[0m
-[0m[[0mdebug[0m] [0mInterrupting thread SystemFailure Proctor[0m
-[0m[[0mdebug[0m] [0m	Interrupted SystemFailure Proctor[0m
-[0m[[0mdebug[0m] [0mInterrupting thread SparkUI-85[0m
-[0m[[0mdebug[0m] [0m	Interrupted SparkUI-85[0m
-[0m[[0mdebug[0m] [0mInterrupting thread shuffle-client-4-7[0m
-[0m[[0mdebug[0m] [0m	Interrupted shuffle-client-4-7[0m
-[0m[[0mdebug[0m] [0mInterrupting thread rpc-client-1-7[0m
-[0m[[0mdebug[0m] [0m	Interrupted rpc-client-1-7[0m
+[0m[[0mdebug[0m] [0mInterrupting thread Idle OplogCompactor[0m
+[0m[[0mdebug[0m] [0m	Interrupted Idle OplogCompactor[0m
+[0m[[0mdebug[0m] [0mInterrupting thread Asynchronous disk writer for region SNAPPY-INTERNAL-DELTA[0m
+[0m[[0mdebug[0m] [0m	Interrupted Asynchronous disk writer for region SNAPPY-INTERNAL-DELTA[0m
+[0m[[0mdebug[0m] [0mInterrupting thread map-output-dispatcher-2[0m
+[0m[[0mdebug[0m] [0m	Interrupted map-output-dispatcher-2[0m
+[0m[[0mdebug[0m] [0mInterrupting thread shuffle-client-4-1[0m
+[0m[[0mdebug[0m] [0m	Interrupted shuffle-client-4-1[0m
 [0m[[0mdebug[0m] [0mInterrupting thread SystemFailure WatchDog[0m
 [0m[[0mdebug[0m] [0m	Interrupted SystemFailure WatchDog[0m
+[0m[[0mdebug[0m] [0mInterrupting thread dispatcher-event-loop-1[0m
+[0m[[0mdebug[0m] [0m	Interrupted dispatcher-event-loop-1[0m
 [0m[[0mdebug[0m] [0mInterrupting thread RecurringTimer - JobGenerator[0m
 [0m[[0mdebug[0m] [0m	Interrupted RecurringTimer - JobGenerator[0m
-[0m[[0mdebug[0m] [0mInterrupting thread GlobalTXTimeoutMonitor[0m
-[0m[[0mdebug[0m] [0m	Interrupted GlobalTXTimeoutMonitor[0m
-[0m[[0mdebug[0m] [0mInterrupting thread Thread-2[0m
-[0m[[0mdebug[0m] [0m	Interrupted Thread-2[0m
-[0m[[0mdebug[0m] [0mInterrupting thread shuffle-client-4-5[0m
-[0m[[0mdebug[0m] [0m	Interrupted shuffle-client-4-5[0m
-[0m[[0mdebug[0m] [0mInterrupting thread shuffle-client-4-2[0m
-[0m[[0mdebug[0m] [0m	Interrupted shuffle-client-4-2[0m
-[0m[[0mdebug[0m] [0mInterrupting thread shuffle-client-4-4[0m
-[0m[[0mdebug[0m] [0m	Interrupted shuffle-client-4-4[0m
-[0m[[0mdebug[0m] [0mInterrupting thread SparkUI-87[0m
-[0m[[0mdebug[0m] [0m	Interrupted SparkUI-87[0m
-[0m[[0mdebug[0m] [0mInterrupting thread rpc-server-3-6[0m
-[0m[[0mdebug[0m] [0m	Interrupted rpc-server-3-6[0m
-[0m[[0mdebug[0m] [0mInterrupting thread Lock Grantor for gfxd-ddl-lock-service[0m
-[0m[[0mdebug[0m] [0m	Interrupted Lock Grantor for gfxd-ddl-lock-service[0m
-[0m[[0mdebug[0m] [0mInterrupting thread Timer-0[0m
-[0m[[0mdebug[0m] [0m	Interrupted Timer-0[0m
-[0m[[0mdebug[0m] [0mInterrupting thread shuffle-client-4-8[0m
-[0m[[0mdebug[0m] [0m	Interrupted shuffle-client-4-8[0m
-[0m[[0mdebug[0m] [0mInterrupting thread context-cleaner-periodic-gc[0m
-[0m[[0mdebug[0m] [0m	Interrupted context-cleaner-periodic-gc[0m
-[0m[[0mdebug[0m] [0mInterrupting thread shuffle-server-5-2[0m
-[0m[[0mdebug[0m] [0m	Interrupted shuffle-server-5-2[0m
-[0m[[0mdebug[0m] [0mInterrupting thread shuffle-server-5-4[0m
-[0m[[0mdebug[0m] [0m	Interrupted shuffle-server-5-4[0m
-[0m[[0mdebug[0m] [0mInterrupting thread shuffle-server-5-5[0m
-[0m[[0mdebug[0m] [0m	Interrupted shuffle-server-5-5[0m
-[0m[[0mdebug[0m] [0mInterrupting thread State Logger Consumer Thread[0m
-[0m[[0mdebug[0m] [0m	Interrupted State Logger Consumer Thread[0m
-[0m[[0mdebug[0m] [0mInterrupting thread Timer-2[0m
-[0m[[0mdebug[0m] [0m	Interrupted Timer-2[0m
-[0m[[0mdebug[0m] [0mInterrupting thread Timer-1[0m
-[0m[[0mdebug[0m] [0m	Interrupted Timer-1[0m
 [0m[[0mdebug[0m] [0mInterrupting thread Asynchronous disk writer for region GFXD-DEFAULT-DISKSTORE[0m
 [0m[[0mdebug[0m] [0m	Interrupted Asynchronous disk writer for region GFXD-DEFAULT-DISKSTORE[0m
-[0m[[0mdebug[0m] [0mInterrupting thread shuffle-server-5-3[0m
-[0m[[0mdebug[0m] [0m	Interrupted shuffle-server-5-3[0m
-[0m[[0mdebug[0m] [0mInterrupting thread OldEntry GC Thread[0m
+[0m[[0mdebug[0m] [0mInterrupting thread dispatcher-event-loop-3[0m
+[0m[[31merror[0m] [0m(Asynchronous disk writer for region GFXD-DD-DISKSTORE) java.lang.IllegalStateException: Async writer thread stopping due to unexpected interrupt[0m
 [0m[[31merror[0m] [0m(Asynchronous disk writer for region GFXD-DEFAULT-DISKSTORE) java.lang.IllegalStateException: Async writer thread stopping due to unexpected interrupt[0m
-java.lang.IllegalStateException: Async writer thread stopping due to unexpected interrupt
-	at com.gemstone.gemfire.internal.cache.DiskStoreImpl$FlusherThread.run(DiskStoreImpl.java:1900)
-	at java.lang.Thread.run(Thread.java:745)
-[0m[[0mdebug[0m] [0m	Interrupted OldEntry GC Thread[0m
-[0m[[0mdebug[0m] [0mInterrupting thread SparkListenerBus[0m
-[0m[[0mdebug[0m] [0m	Interrupted SparkListenerBus[0m
-[0m[[0mdebug[0m] [0mInterrupting thread SparkUI-86[0m
-[0m[[0mdebug[0m] [0m	Interrupted SparkUI-86[0m
-[0m[[0mdebug[0m] [0mInterrupting thread shuffle-server-5-8[0m
-[0m[[0mdebug[0m] [0m	Interrupted shuffle-server-5-8[0m
-[0m[[0mdebug[0m] [0mInterrupting thread Asynchronous disk writer for region SNAPPY-INTERNAL-DELTA[0m
 [0m[[31merror[0m] [0m(Asynchronous disk writer for region SNAPPY-INTERNAL-DELTA) java.lang.IllegalStateException: Async writer thread stopping due to unexpected interrupt[0m
+[0m[[0mdebug[0m] [0m	Interrupted dispatcher-event-loop-3[0m
+[0m[[0mdebug[0m] [0mInterrupting thread GlobalTXTimeoutMonitor[0m
+[0m[[0mdebug[0m] [0m	Interrupted GlobalTXTimeoutMonitor[0m
+[0m[[0mdebug[0m] [0mInterrupting thread shuffle-server-5-5[0m
 java.lang.IllegalStateException: Async writer thread stopping due to unexpected interrupt
 	at com.gemstone.gemfire.internal.cache.DiskStoreImpl$FlusherThread.run(DiskStoreImpl.java:1900)
 	at java.lang.Thread.run(Thread.java:745)
-[0m[[0mdebug[0m] [0m	Interrupted Asynchronous disk writer for region SNAPPY-INTERNAL-DELTA[0m
+[0m[[0mdebug[0m] [0m	Interrupted shuffle-server-5-5[0m
+[0m[[0mdebug[0m] [0mInterrupting thread rpc-server-3-6[0m
+java.lang.IllegalStateException: Async writer thread stopping due to unexpected interrupt
+	at com.gemstone.gemfire.internal.cache.DiskStoreImpl$FlusherThread.run(DiskStoreImpl.java:1900)
+	at java.lang.Thread.run(Thread.java:745)
+[0m[[0mdebug[0m] [0m	Interrupted rpc-server-3-6[0m
+[0m[[0mdebug[0m] [0mInterrupting thread dispatcher-event-loop-6[0m
+[0m[[0mdebug[0m] [0m	Interrupted dispatcher-event-loop-6[0m
+java.lang.IllegalStateException: Async writer thread stopping due to unexpected interrupt
+	at com.gemstone.gemfire.internal.cache.DiskStoreImpl$FlusherThread.run(DiskStoreImpl.java:1900)
+	at java.lang.Thread.run(Thread.java:745)
+[0m[[0mdebug[0m] [0mInterrupting thread Thread-2[0m
+[0m[[0mdebug[0m] [0m	Interrupted Thread-2[0m
+[0m[[0mdebug[0m] [0mInterrupting thread SystemFailure Proctor[0m
+[0m[[0mdebug[0m] [0m	Interrupted SystemFailure Proctor[0m
+[0m[[0mdebug[0m] [0mInterrupting thread shuffle-client-4-3[0m
+[0m[[0mdebug[0m] [0m	Interrupted shuffle-client-4-3[0m
+[0m[[0mdebug[0m] [0mInterrupting thread rpc-server-3-1[0m
+[0m[[0mdebug[0m] [0m	Interrupted rpc-server-3-1[0m
+[0m[[0mdebug[0m] [0mInterrupting thread shuffle-server-5-2[0m
+[0m[[0mdebug[0m] [0m	Interrupted shuffle-server-5-2[0m
 [0m[[0mdebug[0m] [0mInterrupting thread shuffle-server-5-1[0m
 [0m[[0mdebug[0m] [0m	Interrupted shuffle-server-5-1[0m
-[0m[[0mdebug[0m] [0mInterrupting thread org.apache.hadoop.fs.FileSystem$Statistics$StatisticsDataReferenceCleaner[0m
-[0m[[0mdebug[0m] [0m	Interrupted org.apache.hadoop.fs.FileSystem$Statistics$StatisticsDataReferenceCleaner[0m
-[0m[[0mdebug[0m] [0mInterrupting thread rpc-server-3-4[0m
-[0m[[0mdebug[0m] [0m	Interrupted rpc-server-3-4[0m
+[0m[[0mdebug[0m] [0mInterrupting thread GemFireXD Connection open/close distributor thread[0m
+[0m[[0mdebug[0m] [0m	Interrupted GemFireXD Connection open/close distributor thread[0m
+[0m[[0mdebug[0m] [0mInterrupting thread rpc-client-1-8[0m
+[0m[[0mdebug[0m] [0m	Interrupted rpc-client-1-8[0m
+[0m[[0mdebug[0m] [0mInterrupting thread map-output-dispatcher-6[0m
+[0m[[0mdebug[0m] [0m	Interrupted map-output-dispatcher-6[0m
+[0m[[0mdebug[0m] [0mInterrupting thread SparkUI-83-selector-ServerConnectorManager@649379ef/1[0m
+[0m[[0mdebug[0m] [0m	Interrupted SparkUI-83-selector-ServerConnectorManager@649379ef/1[0m
+[0m[[0mdebug[0m] [0mInterrupting thread shuffle-server-5-7[0m
+[0m[[0mdebug[0m] [0m	Interrupted shuffle-server-5-7[0m
+[0m[[0mdebug[0m] [0mInterrupting thread shuffle-server-5-3[0m
+[0m[[0mdebug[0m] [0m	Interrupted shuffle-server-5-3[0m
+[0m[[0mdebug[0m] [0mInterrupting thread shuffle-client-4-7[0m
+[0m[[0mdebug[0m] [0m	Interrupted shuffle-client-4-7[0m
+[0m[[0mdebug[0m] [0mInterrupting thread dag-scheduler-event-loop[0m
+[0m[[0mdebug[0m] [0m	Interrupted dag-scheduler-event-loop[0m
+[0m[[0mdebug[0m] [0mInterrupting thread dispatcher-event-loop-5[0m
+[0m[[0mdebug[0m] [0m	Interrupted dispatcher-event-loop-5[0m
+[0m[[0mdebug[0m] [0mInterrupting thread shuffle-client-4-5[0m
+[0m[[0mdebug[0m] [0m	Interrupted shuffle-client-4-5[0m
+[0m[[0mdebug[0m] [0mInterrupting thread heartbeat-receiver-event-loop-thread[0m
+[0m[[0mdebug[0m] [0m	Interrupted heartbeat-receiver-event-loop-thread[0m
+[0m[[0mdebug[0m] [0mInterrupting thread State Logger Consumer Thread[0m
+[0m[[0mdebug[0m] [0m	Interrupted State Logger Consumer Thread[0m
+[0m[[0mdebug[0m] [0mInterrupting thread rpc-client-1-5[0m
+[0m[[0mdebug[0m] [0m	Interrupted rpc-client-1-5[0m
+[0m[[0mdebug[0m] [0mInterrupting thread SparkListenerBus[0m
+[0m[[0mdebug[0m] [0m	Interrupted SparkListenerBus[0m
+[0m[[0mdebug[0m] [0mInterrupting thread rpc-server-3-2[0m
+[0m[[0mdebug[0m] [0m	Interrupted rpc-server-3-2[0m
+[0m[[0mdebug[0m] [0mInterrupting thread Spark Context Cleaner[0m
+[0m[[0mdebug[0m] [0m	Interrupted Spark Context Cleaner[0m
+[0m[[0mdebug[0m] [0mInterrupting thread map-output-dispatcher-5[0m
+[0m[[0mdebug[0m] [0m	Interrupted map-output-dispatcher-5[0m
+[0m[[0mdebug[0m] [0mInterrupting thread SparkUI-88[0m
+[0m[[0mdebug[0m] [0m	Interrupted SparkUI-88[0m
+[0m[[0mdebug[0m] [0mInterrupting thread rpc-server-3-5[0m
+[0m[[0mdebug[0m] [0m	Interrupted rpc-server-3-5[0m
+[0m[[0mdebug[0m] [0mInterrupting thread shuffle-server-5-6[0m
+[0m[[0mdebug[0m] [0m	Interrupted shuffle-server-5-6[0m
+[0m[[0mdebug[0m] [0mInterrupting thread dispatcher-event-loop-4[0m
+[0m[[0mdebug[0m] [0m	Interrupted dispatcher-event-loop-4[0m
+[0m[[0mdebug[0m] [0mInterrupting thread SnappyData RowStore Garbage Collection Thread 2[0m
+[0m[[0mdebug[0m] [0m	Interrupted SnappyData RowStore Garbage Collection Thread 2[0m
+[0m[[0mdebug[0m] [0mInterrupting thread gemfirexd.QueryCanceller[0m
+[0m[[0mdebug[0m] [0m	Interrupted gemfirexd.QueryCanceller[0m
+[0m[[0mdebug[0m] [0mInterrupting thread SparkUI-89[0m
+[0m[[0mdebug[0m] [0m	Interrupted SparkUI-89[0m
+[0m[[0mdebug[0m] [0mInterrupting thread Timer-3[0m
+[0m[[0mdebug[0m] [0m	Interrupted Timer-3[0m
+[0m[[0mdebug[0m] [0mInterrupting thread Distributed system shutdown hook[0m
+[0m[[0mdebug[0m] [0m	Interrupted Distributed system shutdown hook[0m
+[0m[[0mdebug[0m] [0mInterrupting thread dispatcher-event-loop-7[0m
+[0m[[0mdebug[0m] [0m	Interrupted dispatcher-event-loop-7[0m
+[0m[[0mdebug[0m] [0mInterrupting thread SparkUI-84-selector-ServerConnectorManager@649379ef/2[0m
+[0m[[0mdebug[0m] [0m	Interrupted SparkUI-84-selector-ServerConnectorManager@649379ef/2[0m
 [0m[[0mdebug[0m] [0mInterrupting thread map-output-dispatcher-3[0m
 [0m[[0mdebug[0m] [0m	Interrupted map-output-dispatcher-3[0m
+[0m[[0mdebug[0m] [0mInterrupting thread rpc-server-3-8[0m
+[0m[[0mdebug[0m] [0m	Interrupted rpc-server-3-8[0m
+[0m[[0mdebug[0m] [0mInterrupting thread GemFireXD MBean Updater Threads 0[0m
+[0m[[0mdebug[0m] [0m	Interrupted GemFireXD MBean Updater Threads 0[0m
+[0m[[0mdebug[0m] [0mInterrupting thread shuffle-client-4-2[0m
+[0m[[0mdebug[0m] [0m	Interrupted shuffle-client-4-2[0m
+[0m[[0mdebug[0m] [0mInterrupting thread Lock Grantor for gfxd-ddl-lock-service[0m
+[0m[[0mdebug[0m] [0m	Interrupted Lock Grantor for gfxd-ddl-lock-service[0m
+[0m[[0mdebug[0m] [0mInterrupting thread Notification Handler[0m
+[0m[[0mdebug[0m] [0m	Interrupted Notification Handler[0m
+[0m[[0mdebug[0m] [0mInterrupting thread SparkUI-82-selector-ServerConnectorManager@649379ef/0[0m
+[0m[[0mdebug[0m] [0m	Interrupted SparkUI-82-selector-ServerConnectorManager@649379ef/0[0m
+[0m[[0mdebug[0m] [0mInterrupting thread shuffle-server-5-8[0m
+[0m[[0mdebug[0m] [0m	Interrupted shuffle-server-5-8[0m
+[0m[[0mdebug[0m] [0mInterrupting thread rpc-client-1-2[0m
+[0m[[0mdebug[0m] [0m	Interrupted rpc-client-1-2[0m
+[0m[[0mdebug[0m] [0mInterrupting thread Management Task[0m
+[0m[[0mdebug[0m] [0m	Interrupted Management Task[0m
+[0m[[0mdebug[0m] [0mInterrupting thread HiveMetaStore Client[0m
+[0m[[0mdebug[0m] [0m	Interrupted HiveMetaStore Client[0m
+[0m[[0mdebug[0m] [0mInterrupting thread SnappyData RowStore Garbage Collection Thread 1[0m
+[0m[[0mdebug[0m] [0m	Interrupted SnappyData RowStore Garbage Collection Thread 1[0m
+[0m[[0mdebug[0m] [0mInterrupting thread Lock Grantor for __PRLS[0m
+[0m[[0mdebug[0m] [0m	Interrupted Lock Grantor for __PRLS[0m
+[0m[[0mdebug[0m] [0mInterrupting thread netty-rpc-env-timeout[0m
+[0m[[0mdebug[0m] [0m	Interrupted netty-rpc-env-timeout[0m
+[0m[[0mdebug[0m] [0mInterrupting thread shuffle-client-4-4[0m
+[0m[[0mdebug[0m] [0m	Interrupted shuffle-client-4-4[0m
+[0m[[0mdebug[0m] [0mInterrupting thread dispatcher-event-loop-0[0m
+[0m[[0mdebug[0m] [0m	Interrupted dispatcher-event-loop-0[0m
+[0m[[0mdebug[0m] [0mInterrupting thread driver-heartbeater[0m
+[0m[[0mdebug[0m] [0m	Interrupted driver-heartbeater[0m
+[0m[[0mdebug[0m] [0mInterrupting thread rpc-client-1-7[0m
+[0m[[0mdebug[0m] [0m	Interrupted rpc-client-1-7[0m
+[0m[[0mdebug[0m] [0mInterrupting thread rpc-server-3-4[0m
+[0m[[0mdebug[0m] [0m	Interrupted rpc-server-3-4[0m
+[0m[[0mdebug[0m] [0mInterrupting thread map-output-dispatcher-1[0m
+[0m[[0mdebug[0m] [0m	Interrupted map-output-dispatcher-1[0m
+[0m[[0mdebug[0m] [0mInterrupting thread SparkUI-86-acceptor-0@3453762f-Spark@3a949ed5{HTTP/1.1}{0.0.0.0:4040}[0m
+[0m[[0mdebug[0m] [0m	Interrupted SparkUI-86-acceptor-0@3453762f-Spark@3a949ed5{HTTP/1.1}{0.0.0.0:4040}[0m
+[0m[[0mdebug[0m] [0mInterrupting thread rpc-client-1-4[0m
+[0m[[0mdebug[0m] [0m	Interrupted rpc-client-1-4[0m
+[0m[[0mdebug[0m] [0mInterrupting thread shuffle-server-5-4[0m
+[0m[[0mdebug[0m] [0m	Interrupted shuffle-server-5-4[0m
+[0m[[0mdebug[0m] [0mInterrupting thread Timer-2[0m
+[0m[[0mdebug[0m] [0m	Interrupted Timer-2[0m
+[0m[[0mdebug[0m] [0mInterrupting thread context-cleaner-periodic-gc[0m
+[0m[[0mdebug[0m] [0m	Interrupted context-cleaner-periodic-gc[0m
+[0m[[0mdebug[0m] [0mInterrupting thread org.apache.hadoop.fs.FileSystem$Statistics$StatisticsDataReferenceCleaner[0m
+[0m[[0mdebug[0m] [0m	Interrupted org.apache.hadoop.fs.FileSystem$Statistics$StatisticsDataReferenceCleaner[0m
+[0m[[0mdebug[0m] [0mInterrupting thread shuffle-client-4-6[0m
+[0m[[0mdebug[0m] [0m	Interrupted shuffle-client-4-6[0m
+[0m[[0mdebug[0m] [0mInterrupting thread rpc-server-3-3[0m
+[0m[[0mdebug[0m] [0m	Interrupted rpc-server-3-3[0m
+[0m[[0mdebug[0m] [0mInterrupting thread dispatcher-event-loop-2[0m
+[0m[[0mdebug[0m] [0m	Interrupted dispatcher-event-loop-2[0m
+[0m[[0mdebug[0m] [0mInterrupting thread Oplog Delete Task[0m
+[0m[[0mdebug[0m] [0m	Interrupted Oplog Delete Task[0m
+[0m[[0mdebug[0m] [0mInterrupting thread shuffle-client-4-8[0m
+[0m[[0mdebug[0m] [0m	Interrupted shuffle-client-4-8[0m
+[0m[[0mdebug[0m] [0mInterrupting thread SparkUI-87[0m
+[0m[[0mdebug[0m] [0m	Interrupted SparkUI-87[0m
+[0m[[0mdebug[0m] [0mInterrupting thread SparkUI-85-selector-ServerConnectorManager@649379ef/3[0m
+[0m[[0mdebug[0m] [0m	Interrupted SparkUI-85-selector-ServerConnectorManager@649379ef/3[0m
+[0m[[0mdebug[0m] [0mInterrupting thread OldEntry GC Thread[0m
+[0m[[0mdebug[0m] [0m	Interrupted OldEntry GC Thread[0m
+[0m[[0mdebug[0m] [0mInterrupting thread Timer-1[0m
+[0m[[0mdebug[0m] [0m	Interrupted Timer-1[0m
+[0m[[0mdebug[0m] [0mInterrupting thread Thread-1[0m
+[0m[[0mdebug[0m] [0m	Interrupted Thread-1[0m
+[0m[[0mdebug[0m] [0mInterrupting thread rpc-server-3-7[0m
+[0m[[0mdebug[0m] [0m	Interrupted rpc-server-3-7[0m
+[0m[[0mdebug[0m] [0mInterrupting thread map-output-dispatcher-7[0m
+[0m[[0mdebug[0m] [0m	Interrupted map-output-dispatcher-7[0m
+[0m[[0mdebug[0m] [0mInterrupting thread rpc-client-1-6[0m
+[0m[[0mdebug[0m] [0m	Interrupted rpc-client-1-6[0m
+[0m[[0mdebug[0m] [0mInterrupting thread Lock Grantor for __VMID_LS[0m
+[0m[[0mdebug[0m] [0m	Interrupted Lock Grantor for __VMID_LS[0m
+[0m[[0mdebug[0m] [0mInterrupting thread Thread-16 StatSampler[0m
+[0m[[0mdebug[0m] [0m	Interrupted Thread-16 StatSampler[0m
+[0m[[0mdebug[0m] [0mInterrupting thread rpc-client-1-1[0m
+[0m[[0mdebug[0m] [0m	Interrupted rpc-client-1-1[0m
+[0m[[0mdebug[0m] [0mInterrupting thread Timer-0[0m
+[0m[[0mdebug[0m] [0m	Interrupted Timer-0[0m
+[0m[[0mdebug[0m] [0mInterrupting thread map-output-dispatcher-0[0m
+[0m[[0mdebug[0m] [0m	Interrupted map-output-dispatcher-0[0m
 [0m[[0mdebug[0m] [0mSandboxed run complete..[0m
 java.lang.RuntimeException: Nonzero exit code: 1
 	at scala.sys.package$.error(package.scala:27)
