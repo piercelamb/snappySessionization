@@ -1,0 +1,2 @@
+run localhost:2181 group3 logs 4
+run

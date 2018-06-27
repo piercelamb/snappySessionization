@@ -4,7 +4,7 @@
 		module="snappysessionization$sbt_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20180620105927"
+		publication="20180627113603"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>
